@@ -2,60 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd30ecb-e359-42f7-ae77-25bdaa064706" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/google.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/images/treeview-default-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/images/treeview-default.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/jquery.treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/jquery.treeview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/app/js/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/change_log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example_advanced_selector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example_basic_selector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example_callback.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example_extract_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/example_modify_contents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/scraping/example_scraping_digg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/scraping/example_scraping_imdb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/scraping/example_scraping_slashdot.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/example/simple_html_dom_utility.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/css/ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/img/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/js/jquery-1.2.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/js/ui.tabs.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/manual.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/manual_api.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/manual/manual_faq.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/simple_html_dom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/all_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/callback_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/dom_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/element_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/invalid_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/jquery-1.2.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/mass_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/memory_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/misc_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/performance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/reader/all_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/reader/element_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/reader/memory_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/reader/performance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/reader/selector_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/selector_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/slick_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/slickspeed.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/std_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parse/testcase/strip_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drupalcopy.dev.iws" />
@@ -268,12 +214,18 @@
       <created>1400594404983</created>
       <updated>1400594404983</updated>
     </task>
+    <task id="LOCAL-00001" summary="Delete files">
+      <created>1401372590939</created>
+      <updated>1401372590939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="354" width="1380" height="608" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -306,6 +258,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Delete files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
