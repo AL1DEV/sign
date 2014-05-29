@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd30ecb-e359-42f7-ae77-25bdaa064706" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupalcopy.dev-2014-05-29T17-14-01.mysql.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drupalcopy.dev.iws" />
@@ -218,7 +219,11 @@
       <created>1401372590939</created>
       <updated>1401372590939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Delete files">
+      <created>1401372643862</created>
+      <updated>1401372643863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
