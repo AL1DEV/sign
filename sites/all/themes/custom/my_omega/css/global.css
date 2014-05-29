@@ -1,0 +1,99 @@
+h1{font-size: 28px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: #404040;
+}
+tr:hover td {
+    background: none!important;
+}
+.panel-2col-stacked .panel-col-top{width: 100%!important;}
+#breadcrumb{display: none}
+#backgound {
+    background: url("images/bg.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+position: fixed;
+}
+.logo-img{
+    padding: 23px 0 19px;
+}
+#region-branding,#region-menu{
+    margin-left: 0px;
+}
+#secondary-menu{
+    display: none;
+}
+.navigation .active{
+    background-color: #f3f3f3!important;
+}
+#main-menu li{
+    margin: 0px;
+    width: 77px;
+    height: 90px;
+    display: block;
+    float: left;
+    background-color: #000000;
+}
+.panels-flexible-row{padding: 0em!important;}
+.view-main-content, .view-taxonomy-view{
+    background-color: #ffffff;
+    /*padding: 0 1.2em 1.7em 2.2em;*/
+}
+.cols-13{
+    width: 92%;
+}
+.link_for_all{
+    display: table-row;
+    float: left;
+    padding: 4px 8px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.views-row{
+    padding: 0 1.2em 2em 2.2em;
+}
+.views-view-grid {border: none}
+
+.horoscope-date{
+    color: #999!important;
+    font-size: 13px;
+    margin-bottom: .9em;
+}
+.inside{
+    margin-bottom: 0px!important;
+}
+.field-content{
+    line-height: 1.5em;
+    color: #444;
+}
+.goroskope_text{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.menu_background{
+    background: rgba(0,0,0,.7);
+}
+.row-1{}
+.field-content a img{
+    text-align: center;
+    display: block;
+    margin: 15px auto 12px;
+}
+.views-field span a{
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.views-view-grid.cols-13{
+    margin-bottom: 0px;
+}
+.views-row-first{padding-top: 20px}
+.views-exposed-form{padding: 0 1.2em 2em 2.2em;}
+#edit-submit-main-page{margin: 0}

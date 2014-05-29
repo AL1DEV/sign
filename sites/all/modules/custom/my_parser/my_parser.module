@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * hook_cron()
+ */
+function my_parser_cron(){
+    module_load_include("inc", "my_parser", "inc/my_parser.pars");
+    $items = my_parser::my_parser_init_bd();//Массив дат и гороскопов которые нужно докачать
+    if($items){
+        $queue = DrupalQueue::get('my_parser_update_node');
+        $queue->createQueue();
+        foreach($items as $date=>$row){
+            $queue->createItem(array(
+                'time' => $date,
+                'data' => $row
+            ));
+        }
+
+    }
+    drupal_flush_all_caches();
+}
+
+/**
+ * hook_cron_queue_info()
+ */
+function my_parser_cron_queue_info(){
+    $queues['my_parser_update_node'] = array(
+        'worker callback' => 'my_parser_update_node_callback',
+        'time' => 60, // time in second for each worker
+    );
+    return $queues;
+}
+
+function my_parser_update_node_callback($data){
+    module_load_include("php", "my_parser", "inc/simple_html_dom");
+    module_load_include("inc", "my_parser", "inc/my_parser.pars");
+    if(fopen("http://all.kharkov.ua","r")){
+        $html = file_get_html('http://all.kharkov.ua/horoscope/hor_day/'.$data['time'].'.html');
+        foreach($html->find('.sign_name') as $sign_name) {
+            $text  = $sign_name->parent()->parent()->next_sibling()->plaintext;
+            $title = trim($sign_name->plaintext);
+            foreach($data['data'] as $val){
+                if($title==$val){
+                    $node = new my_parser();
+                    $node->my_parser_node_save($title,$data,$text);
+                }
+            }
+        }
+    }
+}
+
+

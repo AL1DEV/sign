@@ -1,0 +1,31 @@
+<?php
+
+dsm(my_devel_init());
+
+function my_devel_init(){
+    $query=db_select('node','n')
+        ->fields('tn',array('name'))
+        ->fields('d',array('field_date_value'))
+        ->condition('n.type','horoscope');
+    $query->innerJoin('field_data_field_date','d','n.nid=d.entity_id');
+    $query->innerJoin('field_data_field_sign','t','n.nid=t.entity_id');
+    $query->innerJoin('taxonomy_term_data','tn','t.field_sign_tid=tn.tid');
+    $result = $query->execute()->fetchAll();
+    return $result;
+}
+
+function test2(){
+    $signs =db_select('taxonomy_term_data','t')
+        ->fields('t',array('name'))
+        ->condition('t.vid',2);
+    $result = $signs->execute()->fetchCol();
+    return $result;
+}
+
+
+$result2 = db_query("SELECT tn.name , d.field_date_value FROM node AS n
+                        INNER JOIN field_data_field_date AS d ON n.nid=d.entity_id
+                        INNER JOIN field_data_field_sign AS t ON n.nid=t.entity_id
+                        INNER JOIN taxonomy_term_data AS tn ON t.field_sign_tid=tn.tid
+                        WHERE n.type='horoscope'")->fetchAll();
+dsm($result2);

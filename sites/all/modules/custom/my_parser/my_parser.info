@@ -1,0 +1,6 @@
+name = Parser
+description = Pars horoskope sites
+version = 7.x-1.x-dev
+core = 7.x
+files[] = inc/my_parser.pars.inc
+files[] = inc/simple_html_dom.php
